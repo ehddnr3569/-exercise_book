@@ -24,17 +24,32 @@
         .blue{
             background-color: blue;
             position: fixed;
-            left: 50px;
-            top: 500;
+            left: 500px;
+            top: 500px;
         }
+        .pink{
+            background-color: pink;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+        }
+        
 
 
     </style>
 </head>
 <body>
-    <div class="box"></div>
-    <div class="red"></div>
-    <div class="green"></div>
-    <div class="blue"></div>
+    <div class="box red">
+        <div class="box pink">1</div>
+    </div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+
+    
+    <div class="box green">
+        <div class="box pink">2</div>
+    </div>
 </body>
 </html>
