@@ -1,7 +1,33 @@
+/* now */
+@media screen and (max-width:767px){
+  #now{
+    right: 100px;
+    bottom: 0px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:959px){
+  #now{
+    right: 100px;
+    bottom: 0px;
+  }
+}
+@media screen and (min-width:960px){
+  #now{
+    right: 100px;
+    bottom: 0px;
+  }
+}
+
 @font-face{
     font-family: '동욱싼쓰';
     src:url(NanumGothicCoding-Regular.ttf);
   }
+
+  #aaaa{
+    text-decoration: none;
+    color: #888;
+  }
+    
   p{
     font-family: '동욱싼쓰';
   }
@@ -119,3 +145,10 @@
     @keyframes reveal {
         from { opacity:0; transform:translate3d(0, -30px, 0); }
         to { opacity:1; transform:translate3d(0, 0, 0); }
+
+    
+
+
+
+
+        
