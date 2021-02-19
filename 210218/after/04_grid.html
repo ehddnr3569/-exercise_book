@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Grid System</title>
+    <style>
+    .container{
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 1fr 2fr;
+        gap: 5px;
+    }
+    [class*=cell]{
+        box-sizing: border-box;
+        border: 5px solid black;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cell_a">cell a</div>
+        <div class="cell_b">cell b</div>
+        <div class="cell_c">cell c</div>
+        <div class="cell_d">cell d</div>
+    </div>
+</body>
+</html>

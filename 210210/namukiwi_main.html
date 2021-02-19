@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="kimdonguk.css">
+    <link rel="stylesheet" href="main_webs.css">
+    <title>NAMU KIWI</title>
+    <script>
+      function time() {
+        var time = new Date();
+        document.getElementById("now").innerHTML = time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
+        setInterval("time()", 1000);
+      }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align : center" onload="time()">
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <a class="navbar-brand" href="namukiwi_main.html">NAMU KIWI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="kimdonguk.html">DelMonte <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://qkr03210.github.io/webhosting_20210203">Dole</a> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">SunKist</a> <span class="sr-only">(current)</span></a>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h1 id="NAMU">NAMU KIWI</h1>
+    <br><br><br><br>
+</div>
+
+<form class = 'search'>
+	<button class = "img-button" type = "submit" name = "click" value = "">
+		<i class="fas fa-search"></i>
+	</button>
+
+	<input class = 'keyword' type = 'text' name = 'search' maxlength = 255 value = "" autocomplete = "off">
+
+	<select class = 'SelectSearch' name = 'WhichSearch'>
+		<option id = 'google' value = 'google'>Google</option>
+		<option id = 'naver' value = 'naver'>Naver</option>
+	</select>
+</form>
+
+<div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+    
+    <footer>
+        <br>
+        <div class="foo_div1">
+          <span>(주)NAMU KIWI</span> <span> | </span>
+          <span>대표 : 이동준</span> <span> | </span>
+          <span>사업자등록번호 : 501-88-154463</span> <span> | </span>
+          <p>주소 : 경북산업직업전문학교</p>
+          <p>NAMU KIWI</p>
+          <img src="http://www.newscj.com/news/photo/201610/380601_341606_5826.jpg">
+          <img src="https://lh5.ggpht.com/yVfPv-yLjIuBjpKj41NLkLXmuVv8XzH0m2hf-_sz9lQDv9WB9SX0McB8Jn4bQe4w5Q=w300">
+          <img src="https://media.rocketpunch.com/cache/2e/d5/2ed5970e32545f0b1d74beac75914e7b.jpg">
+        </div>
+        <br>
+      </footer>
+    
+<script type="text/javascript" src="main.js" ></script>
+</body>
+
+
+</html>

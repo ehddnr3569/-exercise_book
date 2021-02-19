@@ -2,271 +2,229 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="bootstrap.css"crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <title>김동욱 인물검색</title>
-    <script language="javascript">
-function time(){
-var time= new Date();
-    document.getElementById("now").innerHTML=time.getHours()+":"+time.getMinutes()+":"+time.getSeconds();
-   setInterval("time()",1000);
-}
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        h4 {
-            font-size: 45px;
-            color: rgb(126, 126, 126);
-            background-color: rgb(236, 236, 236)
-        }
-        h3{
-            text-align: left;
-        }
-
-        h2 {
-            font-size: 30px;
-            color: rgb(95, 86, 86);
-            
-        }
-
-        h5 {
-            font-size: 30px;
-        }
-        h6{
-            font-size: 20px;
-        }
-        footer {
-            background-color: #e7e7e7;
-        }
-        
-        footer img {
-            width: 90px;
-            height: 90px;
-            border-radius: 50%;
-            margin-top: 7px;
-        }
-        
-        .foo_div {
-    
-        }
-        
-        .foo_div1 {
-        }
-        
-        .foo_div1 span {
-            font-size: 15px;
-            color: rgb(92, 90, 90);
-        }
-        
-        .foo_div1 p {
-            margin-top: 5px;
-            color: rgb(116, 114, 114);
-        }
-        
-        .foo_div1 img {
-            width: 25px;
-            height: 25px;
-            margin-top: 10px;
-        }
-    </style>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="kimdonguk.css">
+  <title>NAMU KIWI</title>
+  <script>
+    function time() {
+      var time = new Date();
+      document.getElementById("now").innerHTML = time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
+      setInterval("time()", 1000);
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body style="text-align : center" onload="time()">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">나무키위</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">DelMonte <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Dole</a> <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">SunKist</a> <span class="sr-only">(current)</span></a>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="검색" placeholder="검색" aria-label="검색">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">검색</button>
-          </form>
+
+  <nav class="navbar navbar-expand navbar-light bg-light">
+    <a class="navbar-brand" href="namukiwi_main.html">NAMU KIWI</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="kimdonguk.html">DelMonte <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="http://qkr03210.github.io/webhosting_20210203">Dole</a> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">SunKist</a> <span class="sr-only">(current)</span></a>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="검색" placeholder="검색안돼요" aria-label="검색">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">장식용</button>
+      </form>
+    </div>
+  </nav>
+  <h4>
+    제작자
+  </h4>
+  <br>
+  <div id="slide">
+    <input type="radio" name="pos" id="pos1" checked>
+    <input type="radio" name="pos" id="pos2">
+    <input type="radio" name="pos" id="pos3">
+    <input type="radio" name="pos" id="pos4">
+    <ul>
+      <li><img src="김동욱_3x4.jpg" width="450" height="590"></li>
+      <li><img src="https://picsum.photos/id/1025/450/590" alt=""></li>
+      <li><img src="https://picsum.photos/id/237/450/590" alt=""></li>
+      <li><img src="https://picsum.photos/id/1020/450/590" alt=""></li>
+    </ul>
+    <p class="pos">
+      <label for="pos1"></label>
+      <label for="pos2"></label>
+      <label for="pos3"></label>
+      <label for="pos4"></label>
+    </p>
+  </div>
+  <br>
+  <br>
+  <h1>김 동 욱
+  <h6>Kim Dong Uk | 金東煜</h6>
+  </h1>
+  <br>
+  <hr size="20px">
+
+  <details>
+    <summary>목차</summary>
+    <br><br>
+    <p id="ang"><a href="#a">출생 및 행적 </a></p>
+    <p id="ang"><a href="#b">국적 </a></p>
+    <p id="ang"><a href="#c">신체 </a></p>
+    <p id="ang"><a href="#d">학력 </a></p>
+    <p id="ang"><a href="#e">병역 </a></p>
+    <br><br>
+  </details>
+
+  <hr size="20px">
+  <br>
+  <h5 id="a">출생 및 행적</h5>
+  <br><br>
+  <p>
+    1996년 12월 22일 (만 25세)
+    <br><br>
+    대구광역시 동구 신암동
+  </p>
+  <a href="https://map.kakao.com/?urlX=869205&urlY=666748&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false"target="_blank"><img width="504" height="310"
+      src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=2.5&MX=869205&MY=666748&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo"
+      style="border:1px solid #ccc"></a>
+  <br><br>
+  <p>대구광역시 동구 신암4동 파티마 병원에서 태어나고 <br> 21년간 출생지에서 생활을 유지, 2017년 군대입대로 세종시에서 복역함. <br>2년 전 취업문제로 경상북도 구미로
+    주소지를 옮겼다가 1년전 다시 취업준비를 위해 대구로 돌아옴. <br>현재 대구에서 취업준비를 위해 경북산업직업전문학교에 등록되어 있음.</p>
+  <br>
+  <hr>
+  <br>
+  <h5 id="b">국적</h5>
+  <br><br>
+  <p>
+    <img src="국기.svg" alt="" width="20" height="20">
+    대한민국(Republic of Korea) <br><br>
+    <img src="대한민국-서울-지도.jpg" alt="" width="500" height="500">
+    <br><br> 대한민국(Republic of Korea) 국적을 가지고 있음.
+  </p>
+  <br>
+  <hr>
+  <br>
+  <h5 id="c">신체 </h5>
+  <br><br>
+  <p>
+    키 : 180cm
+    <br><br>
+    몸무게 : 85kg
+  </p>
+  <br>
+  <hr>
+  <br>
+  <h5 id="d">학력 </h5>
+  <br><br>
+  <p>
+    <div class="container">
+      <div id=cell>
+        <div class="card">
+          <img src="신성초.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">신성초등학교</h5>
+            <a class="card-text"> 대구광역시 동구 동북로71길 29 (신암동)</a><br><br>
+            <a href="http://www.dgsinseong.es.kr/" class="btn btn-primary">홈페이지</a>
+          </div>
         </div>
-      </nav>
-
-<p id="back"></p>
-<h4> <p><p></p></p> 인물정보 <p></p> </h4>
-<br>
-<img src="김동욱_3x4.jpg" width="450" height="590">
-<br>
-<br>
-<h1>김 동 욱
-    <h6>Kim Dong Uk | 金東煜</h6>
-</h1>
-<br>
-<!-- <div style="font:normal normal 400 12px/normal dotum, sans-serif; width:640px; height:392px; color:#333; position:relative"><div style="height: 360px;"><a href="https://map.kakao.com/?urlX=869205.0&amp;urlY=666751.0&amp;name=%EB%8C%80%EA%B5%AC%20%EB%8F%99%EA%B5%AC&amp;map_type=TYPE_MAP&amp;from=roughmap" target="_blank"><img class="map" src="//t1.daumcdn.net/roughmap/imgmap/529cde62edc2dbc762dbb6aac448b75c41e504e48ba0d00b19a573b3ea08ca7c" width="638px" height="358px" style="border:1px solid #ccc;"></a></div><div style="overflow: hidden; padding: 7px 11px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 0px 0px 2px 2px; background-color: rgb(249, 249, 249);"><a href="https://map.kakao.com" target="_blank" style="float: left;"><img src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵" style="display:block;width:72px;height:16px"></a><div style="float: right; position: relative; top: 1px; font-size: 11px;"><a target="_blank" href="https://map.kakao.com/?from=roughmap&amp;eName=%EB%8C%80%EA%B5%AC%20%EB%8F%99%EA%B5%AC&amp;eX=869205.0&amp;eY=666751.0" style="float:left;height:15px;padding-top:1px;line-height:15px;color:#000;text-decoration: none;">길찾기</a></div></div></div> -->
-<hr size="20px">
-<a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';"style="text-decoration: none;">
-    <br>
-    <h2 class="btn btn-info">목차</h2>
-    </a><div style="DISPLAY: none"><br/><br/>
-        <p><a href="#a" >출생 및 행적 </a></p>
-        <p><a href="#b" >국적 </a></p>
-        <p><a href="#c" >신체 </a></p>
-        <p><a href="#d" >학력 </a></p>
-        <p><a href="#e" >병역 </a></p>
-    <br/><br/><a onclick="this.parentNode.style.display='none';">
-    </a></div><br/><br/>
-    <hr size="20px">
-<br>
-    <h5 id="a">출생 및 행적</h5>
-    <br>
-    <br>
-        <p>
-            1996년 12월 22일 (만 25세)
-            <br><br>
-            대구광역시 동구 신암동
-        </p>
-        <a href="https://map.kakao.com/?urlX=869205&urlY=666748&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false"
-    target="_blank"><img width="504" height="310"
-        src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=2.5&MX=869205&MY=666748&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo"
-        style="border:1px solid #ccc"></a>
-        <br><br>
-        대구광역시 동구 신암4동 파티마 병원에서 태어나고 <br> 21년간 출생지에서 생활을 유지, 2017년 군대입대로 세종시에서 복역함. <br>2년 전 취업문제로 경상북도 구미로
-        주소지를 옮겼다가 1년전 다시 취업준비를 위해 대구로 돌아옴. <br>현재 대구에서 취업준비를 위해 경북산업직업전문학교에 등록되어 있음. 
-
-</p>
-<br>
-<hr>
-<br>
-    <h5 id="b">국적</h5>
-    <br>
-    <br>
-        <p>
-            <img src="국기.svg" alt="" width="20" height="20">
-            대한민국(Republic of Korea) <br><br>
-            <img src="대한민국-서울-지도.jpg" alt="" width="500" height="500">
-            <br><br> 대한민국(Republic of Korea) 국적을 가지고 있음.
-        </p>
-<br>
-        <hr>
         <br>
-    <h5 id="c">신체 </h5>
-    <br>
-    <br>
-        <p>
-        키 : 180cm
-        <br><br>
-        몸무게 : 85kg
-        </p>
+        <p>신성초등학교(졸업)</p>
+      </div>
+      <div id="cell">
+        <div class="card">
+          <img src="아양중.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">신아중학교</h5>
+            <a class="card-text"> 대구광역시 동구 아양로39길 30 (신암동)</a><br><br>
+            <a href="http://www.sina.ms.kr/" class="btn btn-primary">홈페이지</a>
+          </div>
+        </div>
         <br>
-<hr>
-<br>
-    <h5 id="d">학력 </h5>
-    <br>
-    <br>
-        <p>
-            <div class="row">
-                <div class="col-3"><div class="card">
-                    <img src="신성초.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">신성초등학교</h5>
-                      <p class="card-text"> 대구광역시 동구 동북로71길 29 (신암동)</p>
-                      <a href="http://www.dgsinseong.es.kr/" class="btn btn-primary">홈페이지</a>
-                    </div>
-                  </div></div>
-                <div class="col-3"><div class="card">
-                    <img src="아양중.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">신아중학교</h5>
-                      <p class="card-text">	대구광역시 동구 아양로39길 30 (신암동)</p>
-                      <a href="http://www.sina.ms.kr/" class="btn btn-primary">홈페이지</a>
-                    </div>
-                  </div></div>
-                <div class="col-3"><div class="card">
-                    <img src="영신고.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">영신고등학교</h5>
-                      <p class="card-text">	대구광역시 동구 팔공로50길 32 (봉무동)</p>
-                      <a href="http://youngsin.sen.hs.kr/index.do" class="btn btn-primary">홈페이지</a>
-                    </div>
-                  </div></div>
-                <div class="col-3"><div class="card">
-                    <img src="영남이공대학교.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">영남이공대학교</h5>
-                      <p class="card-text">	대구광역시 남구 현충로 170{대봉동)</p>
-                      <a href="https://www.ync.ac.kr/kor/Main.do" class="btn btn-primary">홈페이지</a>
-                    </div>
-                  </div></div>
-            </div>
-            <br>
-    
-            <a>신성초등학교</a> (졸업)
-            <br><br>
-            <a>아양중학교</a> (졸업)
-            <br><br>
-            <a>영신고등학교</a> (졸업)
-            <br><br>
-            <a>영남이공대학교</a> (경영학과/졸업)
-        </p>
+        <p>아양중학교(졸업)</p>
+      </div>
+      <div id="cell">
+        <div class="card">
+          <img src="영신고.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">영신고등학교</h5>
+            <a class="card-text"> 대구광역시 동구 팔공로50길 32 (봉무동)</a><br><br>
+            <a href="http://youngsin.sen.hs.kr/index.do" class="btn btn-primary">홈페이지</a>
+          </div>
+        </div>
         <br>
-        <hr>
+        <p>영신고등학교(졸업)</p>
+      </div>
+      <div id="cell">
+        <div class="card">
+          <img src="영남이공대학교.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">영남이공대학교</h5>
+            <a class="card-text"> 대구광역시 남구 현충로 170{대봉동)</a><br><br>
+            <a href="https://www.ync.ac.kr/kor/Main.do" class="btn btn-primary">홈페이지</a>
+          </div>
+        </div>
         <br>
-    <h5 id="e">병역 </h5>
+        <p>영남이공대학교(경영학과/졸업)</p>
+      </div>
+    </div>
+    <br><br>
+    <hr>
     <br>
-    <br>
-        <p>
-            <img src="images.png" alt="" width="20" height="20">
-            육군 제203특공여단 병장 예비역<br><br> 
-            나무위키-
-            <a href="https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%ED%8A%B9%EA%B3%B5%EB%8C%80">대한민국 특공대</a>
-            <br>
-            <br>
-            <iframe width="909" height="511" src="https://www.youtube.com/embed/AJrJdT7Swvo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        </p>
-        
+    <h5 id="e">병역</h5>
+    <br><br>
+    <p>
+      <img src="images.png" alt="" width="20" height="20">
+      육군 제203특공여단 병장 예비역<br><br>
+      나무위키-
+      <a href="https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%ED%8A%B9%EA%B3%B5%EB%8C%80">대한민국
+        특공대</a>
+      <br><br>
+      <iframe width="909" height="511" src="https://www.youtube.com/embed/AJrJdT7Swvo" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <br><br>
+    </p>
     <hr size="10px">
-<br>
-<br>
-<br>
-<a href="#back" class="btn btn-primary">돌아가기 </a>
-<br>
-<br>
-<h2><span id="now"></span></h2>
-<br>
-<br>
-
+    <br><br><br>
+    <a href="#back" class="btn btn-primary">돌아가기 </a>
+    <br><br>
+    <h2><span id="now"></span></h2>
+    <br><br>
 </body>
 <footer>
   <br>
-    <div class="foo_div1">
-        <span>(주)NAMU KIWI</span> <span>  |  </span>
-        <span>대표 : 이동준</span> <span>  |  </span>
-        <span>사업자등록번호 : 000-00-00000</span> <span>  |  </span>
-        <p>주소 : 경북산업직업전문학교</p>
-        <p>NAMU KIWI</p>
-        <img src="http://www.newscj.com/news/photo/201610/380601_341606_5826.jpg">
-        <img src="https://lh5.ggpht.com/yVfPv-yLjIuBjpKj41NLkLXmuVv8XzH0m2hf-_sz9lQDv9WB9SX0McB8Jn4bQe4w5Q=w300">
-        <img src="https://media.rocketpunch.com/cache/2e/d5/2ed5970e32545f0b1d74beac75914e7b.jpg">
-    </div>
-    <br>
+  <div class="foo_div1">
+    <span>(주)NAMU KIWI</span> <span> | </span>
+    <span>대표 : 이동준</span> <span> | </span>
+    <span>사업자등록번호 : 501-88-154463</span> <span> | </span>
+    <p>주소 : 경북산업직업전문학교</p>
+    <p>NAMU KIWI</p>
+    <img src="http://www.newscj.com/news/photo/201610/380601_341606_5826.jpg">
+    <img src="https://lh5.ggpht.com/yVfPv-yLjIuBjpKj41NLkLXmuVv8XzH0m2hf-_sz9lQDv9WB9SX0McB8Jn4bQe4w5Q=w300">
+    <img src="https://media.rocketpunch.com/cache/2e/d5/2ed5970e32545f0b1d74beac75914e7b.jpg">
+  </div>
+  <br>
 </footer>
+
 </html>
