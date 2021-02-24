@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>NAMU KIWI SING IN</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header h1 {
+    padding: 30px 0;
+  }
+
+  .header h2 {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+
+    padding: 10px 0;
+    letter-spacing: 10px;
+    /*letter-spacing:10px;글자사이 자간*/
+  }
+
+  /*폼 영역 아이디+비밀번호+아이디저장 값*/
+  .container {
+    margin: 50px 0;
+  }
+
+  /*fieldset{border:none;}_테두리*/
+  fieldset {
+    width: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+
+  /*※ box-sizing:border-box; → padding값을 넣어도 지정된 사이즈로 인식됨*/
+  /*margin:50px auto;  -> css 가운데 정렬*/
+  fieldset h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  legend {
+    display: none;
+  }
+
+
+  /*로그인 회원가입 설정값*/
+  div label {
+    font-size: 14px;
+    margin: 5px
+  }
+
+  input[type=text],
+  input[type=password],
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .btnLogin {
+    background: #919292;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+  }
+
+  .btnJoin {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+  }
+
+  /*이용약관+개인정보취급방침+고객센터*/
+  .footer ul {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .footer ul li a {
+    color: #999;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  /*연락처+주소+copy*/
+  .call {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .call a {
+    font-size: 20px;
+    color: #d8724e;
+  }
+
+  address {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    font-style: normal;
+  }
+
+  .copy {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0;
+    font-style: normal;
+  }
+
+  .footerLogo {
+    text-align: center;
+    margin-bottom: 20px 0;
+  }
+
+  .footerLogo img {
+    margin-top: 10px;
+    width: 80px;
+    opacity: 0.3;
+  }
+
+
+  .footer {
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 10px; text-align : center;
+  }
+
+  h1 {
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
+
+  #aa {
+    text-decoration: none;
+    color: #000;
+  }
+
+  footer {
+    background-color: #e7e7e7;
+  }
+
+  footer img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 7px;
+  }
+
+  .foo_div1 span {
+    font-size: 15px;
+    color: rgb(92, 90, 90);
+  }
+
+  .foo_div1 p {
+    margin-top: 5px;
+    color: rgb(116, 114, 114);
+  }
+
+  .foo_div1 img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+  }
+</style>
+
+<body>
+  <div class="header">
+    <h1><a href="namukiwi_main.html" id="aa">NAMU KIWI</a>
+      <h1>
+        <h2>SING &nbsp;IN</h2>
+  </div>
+  <div class="container">
+    <!-- center  -->
+    <form>
+      <fieldset>
+        <h3>회원로그인</h3>
+        <legend>회원로그인</legend>
+        <div>
+          <input type="text" placeholder="아이디">
+          <input type="password" placeholder="비밀번호">
+          <center>
+          <input type="checkbox" checked id="chkID">
+          <label for="chkID">아이디저장&nbsp;&nbsp;&nbsp;</label>
+          <input type="checkbox" checked id="chkkID">
+          <label for="chkkID">자동로그인</label><br><br>
+        </center>
+
+          <button type="submit" class="btnLogin">로그인</button>
+          <button type="submit" class="btnJoin">회원가입</button>
+        </div>
+        <div class="footer">
+          <ul>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+
+
+          <p class="call"></p>
+          <p class="copy">COPYRIGHT(c) 2021 NAMUKIWI byLEEDONGJUN ALL RIGHTS RESERVED.</p>
+        </div>
+
+        <div class="footerLogo">
+        </div>
+  </div>
+  </form>
+  <footer>
+    <center>
+      <br>
+      <h2><span id="now"></span></h2>
+      <div class="foo_div1">
+        <span>(주)NAMU KIWI</span> <span> | </span>
+        <span>대표 : 이동준</span> <span> | </span>
+        <span>사업자등록번호 : 501-88-154463</span> <span> | </span>
+        <p>주소 : 경북산업직업전문학교</p>
+        <p>NAMU KIWI</p>
+        <img src="instagram-png-logo.png">
+        <img src="https://lh5.ggpht.com/yVfPv-yLjIuBjpKj41NLkLXmuVv8XzH0m2hf-_sz9lQDv9WB9SX0McB8Jn4bQe4w5Q=w300">
+        <img src="https://media.rocketpunch.com/cache/2e/d5/2ed5970e32545f0b1d74beac75914e7b.jpg">
+      </div>
+      <br>
+    </center>
+  </footer>
+</body>
+
+</html>

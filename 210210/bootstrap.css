@@ -241,7 +241,7 @@ label {
 }
 
 button {
-    border-radius: 0
+    border-radius: 2px 2px 2px 2px;
 }
 
 button:focus {
@@ -4653,9 +4653,11 @@ input[type=submit].btn-block {
     width: 1.5em;
     height: 1.5em;
     vertical-align: middle;
-    content: "";
     background: no-repeat center center;
-    background-size: 100% 100%
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(148, 148, 148);
+    border-radius: 5px 5px 5px 5px;
 }
 
 @media (max-width:575.98px) {
