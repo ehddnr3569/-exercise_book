@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 1000px;
+            margin: 1000px auto;
+            
+        }
+
+        section {
+            width: 1000px;
+            height: 1000px;
+            position: relative;
+            animation: rint 3s linear 0s infinite ;
+            
+            transform-style: preserve-3d;
+        }
+
+        div {
+            width: 1000px;
+            height: 1000px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0.3;
+            font-size: 80px;
+
+            backface-visibility: hidden;
+            
+        }
+
+        div:nth-child(1) {
+            transform: rotateY(0deg) translate3d(0px,0px,1000px);
+            background: red;
+        }
+
+        div:nth-child(2) {
+            transform: rotateY(90deg) translate3d(0px,0px,1000px);
+            background: green;
+        }
+
+        div:nth-child(3) {
+            transform: rotateY(180deg) translate3d(0px,0px,1000px);
+            background: blue;
+        }
+
+        div:nth-child(4) {
+            transform: rotateY(270deg) translate3d(0px,0px,1000px);
+            background: yellow;
+        }
+
+        div:nth-child(5) {
+            transform: rotateX(90deg) translate3d(0px,0px,1000px);
+            background: brown;
+        }
+
+        div:nth-child(6) {
+            transform: rotateX(270deg) translate3d(0px,0px,1000px);
+            background: pink;
+            
+        }
+        div:nth-child(7) {
+            transform: rotateX(270deg) translate3d(0px,0px,1000px);
+            background: rgb(255, 0, 43);
+            
+        }
+        div:nth-child(8) {
+            transform: rotateX(270deg) translate3d(0px,0px,1000px);
+            background: rgb(5, 121, 253);
+            
+        }
+        div:nth-child(9) {
+            transform: rotateX(270deg) translate3d(0px,0px,1000px);
+            background: rgb(0, 238, 255);
+            
+        }        
+
+        @keyframes rint {
+            from {
+                transform: rotateX(0deg) rotateY(0deg) rotateX(0deg);
+            }
+
+            to {
+                transform: rotateX(360deg) rotateY(360deg) rotateX(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>상준이형</div>
+        <div>바보래용</div>
+        <div>똥멍총이</div>
+        <div>메롱메롱</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+
+</html>
