@@ -188,37 +188,34 @@
     height: 25px;
     margin-top: 10px;
   }
-
-  #fonff{
-    text-decoration: none;
-    color: white;
-  }
 </style>
 
 <body>
   <div class="header">
     <h1><a href="namukiwi_main.html" id="aa">NAMU KIWI</a>
       <h1>
-        <h2>SING &nbsp;IN</h2>
+        <h2>SING &nbsp;UP</h2>
   </div>
   <div class="container">
     <!-- center  -->
     <form>
       <fieldset>
-        <h3>회원로그인</h3>
-        <legend>회원로그인</legend>
+        <h3>회원가입</h3>
         <div>
-          <input type="text" placeholder="아이디">
+          <input type="text" placeholder="회원아이디">
           <input type="password" placeholder="비밀번호">
-          <center>
-          <input type="checkbox" checked id="chkID">
-          <label for="chkID">아이디저장&nbsp;&nbsp;&nbsp;</label>
-          <input type="checkbox" checked id="chkkID">
-          <label for="chkkID">자동로그인</label><br><br>
-        </center>
+          <input type="password" placeholder="비밀번호 확인">
+          <input type="text" placeholder="이름">
+          <center>성별&nbsp;&nbsp;
 
-          <button type="submit" class="btnLogin">로그인</button>
-          <button type="submit" class="btnJoin"><a id="fonff" href="sign_up.html">회원가입</a></button>
+            <input type="radio" name="king" checked>남&nbsp;
+            <input type="radio" name="king">녀
+          </center>
+          <input type="text" placeholder="집전화">
+          <input type="text" placeholder="휴대전화">
+          <input type="text" placeholder="이메일">
+          <br><br>    
+          <button type="submit" class="btnJoin">회원가입</button>
         </div>
         <div class="footer">
           <ul>
@@ -255,4 +252,4 @@
   </footer>
 </body>
 
-</html> 
+</html>
